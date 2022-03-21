@@ -20,8 +20,8 @@ requirements:
     - pip
     - setuptools_scm
   run:
-    - python
-    - pytest >=3.6
+    - python >=3.6
+    - pytest
 
 test:
   files:
