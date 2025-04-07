@@ -21,7 +21,7 @@ requirements:
     - hatch-vcs
   run:
     - python >={{ python_min }}
-    - pytest >=3.6
+    - pytest >=5
 
 test:
   files:
