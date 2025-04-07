@@ -1,12 +1,11 @@
-{% set name = "pytest-repeat" %}
 {% set version = "0.9.4" %}
 
 package:
-  name: {{ name|lower }}
+  name: pytest-repeat
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/p/pytest-repeat/pytest_repeat-{{ version }}.tar.gz
   sha256: d92ac14dfaa6ffcfe6917e5d16f0c9bc82380c135b03c2a5f412d2637f224485
 
 build:
